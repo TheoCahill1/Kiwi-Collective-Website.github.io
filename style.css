@@ -56,17 +56,21 @@ width: 150px;
     padding-bottom:0px;
    }
    
-   /* Section */
-   .main section{
-    padding-left:0px;
-    padding-right:0px;
-    padding-top:0px;
-    padding-bottom:1px;
-    transform:translatex(687px) translatey(-78px);
+/* Main */
+.main{
+    transform:translatex(0px) translatey(0px);
    }
    
-   .square {
-    width: 10%;
-    height: 10;
-    background-color: #ff0101;
-  }
+   /* Heading */
+   .main footer h5{
+    font-size:26px;
+    transform: translatex(700px) translatey(500px);
+    letter-spacing:3.8px;
+    opacity:1;
+    visibility:visible;
+    float:none;
+    clear:none;
+    display:inline-block;
+   }
+   
+   
