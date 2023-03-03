@@ -47,30 +47,10 @@ width: 150px;
 }
 
 
-/* Header */
-.main header{
-    font-size:97px;
-    margin-left:100px;
-    margin-bottom:170px;
-    transform:translatex(248px) translatey(9px);
-    padding-bottom:0px;
-   }
-   
-/* Main */
-.main{
-    transform:translatex(0px) translatey(0px);
-   }
-   
-   /* Heading */
-   .main footer h5{
+/* Heading */
+footer h5{
     font-size:26px;
-    transform: translatex(700px) translatey(500px);
-    letter-spacing:3.8px;
-    opacity:1;
-    visibility:visible;
-    float:none;
-    clear:none;
-    display:inline-block;
+    transform:translatex(712px) translatey(673px);
    }
    
    
