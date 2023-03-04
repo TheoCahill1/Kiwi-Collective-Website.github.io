@@ -21,13 +21,14 @@ section{
 }
 
 nav{
-    width: 80%;
+    transform:translatex(26px) translatey(-12px);
+    width:1818px;
     position: fixed;
     margin: 20px auto;
     z-index: 1;
     display: flex;
     align-items: center;
-    color: #ebebeb;
+    background-color: #ffffff00;
 }
 
 .nav-links{
@@ -49,13 +50,35 @@ nav{
 
 .logo{
     flex-basis: 20%;
+    background-color: #ffffff00;
     }
     
 .logo img{
     width: 150px;
+    background-color: #ffffff00;
     }
 
 .h1{
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 4px black;
+}
+
+h1{
+    padding-top:184px;
+}
+
+.one h1{
+    font-size:80px;
+   }
+
+.two h1{
+    font-size:80px;
+   }
+
+.three h1{
+    font-size: 80px;
+}
+
+.four h1{
+    font-size: 80px;
 }
