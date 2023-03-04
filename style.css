@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
-    padding: 0 ;
-    font-family: monospace;
-    font-size: x-large;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: large;
+    background-color: rgb(114, 114, 114);
 }
 
-.main{
-    width: 100%;
+section{
     height: 100vh;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(to top, #c1e2d4, #fdfdfd)
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
 }
 
 nav{
     width: 80%;
-    position: sticky;
+    position: fixed;
     margin: 20px auto;
     z-index: 1;
     display: flex;
     align-items: center;
-}
-
-.logo{
-flex-basis: 20%;
-}
-
-.logo img{
-width: 150px;
+    color: #ebebeb;
 }
 
 .nav-links{
     flex: 1;
     text-align: right;
+    text-shadow: 1px 1px 4px black;
 }
 
 .nav-links ul li{
@@ -42,15 +43,19 @@ width: 150px;
 }
 
 .nav-links ul li a{
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
+.logo{
+    flex-basis: 20%;
+    }
+    
+.logo img{
+    width: 150px;
+    }
 
-/* Heading */
-footer h5{
-    font-size:26px;
-    transform:translatex(712px) translatey(673px);
-   }
-   
-   
+.h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 4px black;
+}
